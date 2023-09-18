@@ -1,0 +1,2728 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media only screen and (max-width:327px) {
+    .s1-hedding-paragraph-and-button h3 {
+        font-family: Recoleta, Sarif;
+        font-weight: 500;
+        font-size: 32px;
+        color: #20254a;
+        margin-top: 110px;
+        margin-left: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .s1-nav-bar-elems {
+        display: none;
+    }
+
+    .logo {
+        width: 25%;
+        /* border: 1px solid red; */
+        cursor: pointer;
+    }
+
+    .cart-and-hamburger .cart,
+    .cart-and-hamburger .hamburger {
+        width: 20px;
+        height: 20px;
+        /* border: 1px solid red; */
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .logo-cart-and-hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        /* border: 1px solid red; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: ease all .1s;
+        z-index: 100;
+    }
+
+    .s1-hedding-paragraph-and-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 18px;
+
+    }
+
+    .s1-hedding-paragraph-and-button h3 {
+        font-family: Recoleta, Sarif;
+        font-weight: 500;
+        font-size: 32px;
+        color: #20254a;
+        margin-top: 110px;
+    }
+
+    .s1-hedding-paragraph-and-button p {
+        font-family: "TT Norms Pro", sans-serif;
+        text-align: center;
+        font-size: 18px;
+        color: #20254a;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 16px;
+    }
+
+    .s1-hedding-paragraph-and-button button {
+        font-family: "TT Norms Pro", sans-serif;
+        border-radius: 22px;
+        width: 121px;
+        color: #20254a;
+        height: 44px;
+        background-color: #ffffff;
+        cursor: pointer;
+        border-color: #000;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .s1-hedding-paragraph-and-button button:hover {
+        color: white;
+        background-color: #20254A;
+    }
+
+    .s1-bckgrnd-img {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/files/bgmob.png?v=1644319290);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        background-color: #F1FAFF;
+    }
+
+    .s1-buttons-tab {
+        display: none;
+    }
+
+    .take-quiz-img {
+        display: none;
+    }
+
+    /* ---------------sticky--------------- */
+    .sticky {
+        padding: 20px 30px 10px;
+        background-color: #FFECE2;
+        box-shadow: 0 0 0.5rem 1px #00000029;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .s1-nav-bar-elems {
+        display: none;
+    }
+
+    .s1-bckgrnd-img {
+        height: 520px;
+        background-color: #F1FAFF;
+    }
+
+    .logo {
+        width: 15%;
+        /* border: 1px solid red; */
+        cursor: pointer;
+    }
+
+    .s1-hedding-paragraph-and-button h3 {
+        margin-top: 170px;
+    }
+
+    .s1-hedding-paragraph-and-button p {
+        width: 60%;
+    }
+
+    .take-quiz-img {
+        display: none;
+    }
+
+    .s1-buttons-tab {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width:601px) and (max-width: 768px) {
+    .logo {
+        width: 25%;
+        /* border: 1px solid red; */
+        cursor: pointer;
+    }
+
+    .cart-and-hamburger .cart,
+    .cart-and-hamburger .hamburger {
+        width: 20px;
+        height: 20px;
+        /* border: 1px solid red; */
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .logo-cart-and-hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        /* border: 1px solid red; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: ease all .1s;
+        z-index: 100;
+    }
+
+    .s1-hedding-paragraph-and-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 18px;
+
+    }
+
+    .s1-hedding-paragraph-and-button h3 {
+        font-family: Recoleta, Sarif;
+        font-weight: 500;
+        font-size: 32px;
+        color: #20254a;
+        margin-top: 110px;
+    }
+
+    .s1-hedding-paragraph-and-button p {
+        font-family: "TT Norms Pro", sans-serif;
+        text-align: center;
+        font-size: 18px;
+        color: #20254a;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 16px;
+    }
+
+    .s1-hedding-paragraph-and-button button {
+        font-family: "TT Norms Pro", serif;
+        border-radius: 22px;
+        width: 121px;
+        color: #20254a;
+        height: 44px;
+        background-color: #ffffff;
+        cursor: pointer;
+        border-color: #000;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .s1-hedding-paragraph-and-button button:hover {
+        color: white;
+        background-color: #20254A;
+    }
+
+    .s1-bckgrnd-img {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/files/bgmob.png?v=1644319290);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        background-color: #F1FAFF;
+    }
+
+    .s1-buttons-tab {
+        display: none;
+    }
+
+    .take-quiz-img {
+        display: none;
+    }
+
+    /* ---------------sticky--------------- */
+    .sticky {
+        padding: 20px 30px 10px;
+        background-color: #FFECE2;
+        box-shadow: 0 0 0.5rem 1px #00000029;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .s1-bckgrnd-img {
+        height: 520px;
+        background-color: #F1FAFF;
+    }
+
+    .logo {
+        width: 15%;
+        /* border: 1px solid red; */
+        cursor: pointer;
+    }
+
+    .s1-hedding-paragraph-and-button h3 {
+        margin-top: 170px;
+    }
+
+    .s1-hedding-paragraph-and-button p {
+        width: 60%;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        width: 15%;
+        /* border: 1px solid red; */
+        cursor: pointer;
+    }
+
+    .cart-and-hamburger .cart,
+    .cart-and-hamburger .hamburger {
+        width: 20px;
+        height: 20px;
+        /* border: 1px solid red; */
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .logo-cart-and-hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        /* border: 1px solid red; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: ease all .1s;
+        z-index: 100;
+    }
+
+    .s1-hedding-paragraph-and-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 18px;
+
+    }
+
+    .s1-hedding-paragraph-and-button h3 {
+        font-family: Recoleta, Sarif;
+        font-weight: 500;
+        font-size: 32px;
+        color: #20254a;
+        margin-top: 170px;
+    }
+
+    .s1-hedding-paragraph-and-button p {
+        font-family: "TT Norms Pro", sans-serif;
+        text-align: center;
+        font-size: 18px;
+        color: #20254a;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 16px;
+        width: 45%;
+    }
+
+    .s1-hedding-paragraph-and-button button {
+        font-family: "TT Norms Pro", sans-serif;
+        border-radius: 22px;
+        width: 121px;
+        color: #20254a;
+        height: 44px;
+        background-color: #ffffff;
+        cursor: pointer;
+        border-color: #000;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .s1-hedding-paragraph-and-button button:hover {
+        color: white;
+        background-color: #20254A;
+    }
+
+    .s1-bckgrnd-img {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/files/bgmob.png?v=1644319290);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 520px;
+        background-color: #F1FAFF;
+    }
+
+    .s1-buttons-tab {
+        display: none;
+    }
+
+    .take-quiz-img {
+        display: none;
+    }
+
+    /* ---------------sticky--------------- */
+    .sticky {
+        padding: 20px 30px 10px;
+        background-color: #FFECE2;
+        box-shadow: 0 0 0.5rem 1px #00000029;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .logo {
+        width: 10%;
+        /* border: 1px solid red; */
+        cursor: pointer;
+    }
+
+    .cart-and-hamburger .cart,
+    .cart-and-hamburger .hamburger {
+        width: 20px;
+        height: 20px;
+        /* border: 1px solid red; */
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    .logo-cart-and-hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        /* border: 1px solid red; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: ease all .1s;
+        z-index: 100;
+    }
+
+    .s1-hedding-paragraph-and-button {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 18px;
+        margin-left: 16px;
+
+    }
+
+    .s1-hedding-paragraph-and-button h3 {
+        font-family: Recoleta, Sarif;
+        font-weight: 500;
+        font-size: 54px;
+        color: #20254a;
+        margin-top: 170px;
+        width: 40%;
+        line-height: 46px;
+    }
+
+    .s1-hedding-paragraph-and-button p {
+        font-family: "TT Norms Pro", sans-serif;
+        text-align: left;
+        font-size: 18px;
+        color: #20254a;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 16px;
+        width: 40%;
+        margin-top: 22px;
+    }
+
+    .s1-hedding-paragraph-and-button button {
+        font-family: "TT Norms Pro", sans-serif;
+        border-radius: 22px;
+        width: 214px;
+        color: #20254a;
+        height: 44px;
+        background-color: #ffffff;
+        cursor: pointer;
+        border-color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        display: none;
+
+    }
+
+    .s1-buttons-tab {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .s1-buttons-tab .s1b1 {
+        display: block;
+        font-family: "TT Norms Pro", sans-serif;
+        border-radius: 22px;
+        width: 198px;
+        color: #20254a;
+        height: 44px;
+        background-color: #ffffff;
+        cursor: pointer;
+        border-color: #000;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .s1-buttons-tab .s1b2 {
+        display: block;
+        font-family: "TT Norms Pro", sans-serif;
+        border-radius: 22px;
+        width: 166px;
+        color: #20254a;
+        height: 44px;
+        background-color: #ffffff;
+        cursor: pointer;
+        border-color: #000;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .s1-bckgrnd-img {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/files/bgtablets.png?v=200000000000000000);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        background-color: #F1FAFF;
+    }
+
+    .take-quiz-img {
+        display: block;
+
+
+    }
+
+    .take-quiz-img img {
+        width: 35%;
+        margin-left: 120px;
+    }
+
+    /* ---------------sticky--------------- */
+    .sticky {
+        padding: 20px 30px 10px;
+        background-color: #FFECE2;
+        box-shadow: 0 0 0.5rem 1px #00000029;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .cart-and-hamburger .hamburger {
+        display: none;
+    }
+
+    .s1-nav-bar-elems {
+        display: block;
+        list-style: none;
+    }
+
+    .s1-nav-bar-elems ul {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .s1-nav-bar-elems ul li {
+        letter-spacing: 2px;
+    }
+}
+
+@media only screen and (min-width:1244px) {
+    .s1-bckgrnd-img {
+        height: 812px;
+        background-color: #F1FAFF;
+    }
+
+    .s1-nav-bar-elems ul {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .s1-nav-bar-elems ul li {
+        letter-spacing: 4px;
+    }
+
+    .s1-hedding-paragraph-and-button h3 {
+        font-size: 72px;
+        margin-top: 227px;
+        line-height: 61px;
+    }
+
+    .s1-hedding-paragraph-and-button p {
+        width: 30%;
+    }
+
+    .s1-buttons-tab .s1b1 {
+        height: 54px;
+        border-radius: 37px;
+    }
+
+    .s1-buttons-tab .s1b2 {
+        height: 54px;
+        border-radius: 37px;
+    }
+}
+
+@media only screen and (min-width:1644px) {
+    .s1-hedding-paragraph-and-button h3 {
+        width: 20%;
+    }
+
+    .s1-hedding-paragraph-and-button p {
+        width: 20%;
+    }
+
+}
+
+@media only screen and (min-width:1797px) {
+    .s1-nav-bar-elems ul {
+        gap: 100px;
+    }
+
+    .s1-nav-bar-elems ul li {
+        letter-spacing: 4px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:3318px) {
+    .s1-hedding-paragraph-and-button h3 {
+        width: 10%;
+    }
+
+    .s1-hedding-paragraph-and-button p {
+        width: 10%;
+    }
+}
+
+/*
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    -------section-1--section-1  section-1  section-1  section-1section-1  section-1  section-1v  section-1-----------------------------------------------------------------------------------------------------------------
+    */
+@media only screen and (max-width: 320px) {
+
+    .s2-left-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 13px;
+    }
+
+    .s2-left-content h3 span {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/what-are.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .s2-left-content h3 {
+        max-width: 70%;
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px;
+        color: #20254A;
+    }
+
+    .s2-left-content #frst-p {
+        max-width: 100%;
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 16px;
+    }
+
+    .s2-left-content #scnd-p,
+    .s2-left-content #thrd-p {
+        max-width: 100%;
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 16px;
+    }
+
+    .s2-left-content button {
+        font-family: "TT Norms Pro", sans-serif;
+        border-radius: 22px;
+        width: 174px;
+        color: #20254a;
+        height: 44px;
+        background-color: #F1FAFF;
+        cursor: pointer;
+        border-color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+
+    .s2-left-content button:hover {
+        background-color: #20254A;
+        color: white;
+    }
+
+    .s2-dog-img {
+        display: none;
+    }
+
+    .s2-bck-img {
+        max-height: 500px;
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/4/assets/what-are-bg.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .s2-left-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 13px;
+    }
+
+    .s2-left-content h3 span {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/what-are.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .s2-left-content h3 {
+        max-width: 70%;
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px;
+        color: #20254A;
+    }
+
+    .s2-left-content #frst-p {
+        max-width: 100%;
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 16px;
+    }
+
+    .s2-left-content #scnd-p,
+    .s2-left-content #thrd-p {
+        max-width: 100%;
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 16px;
+    }
+
+    .s2-left-content button {
+        font-family: "TT Norms Pro", sans-serif;
+        border-radius: 22px;
+        width: 174px;
+        color: #20254a;
+        height: 44px;
+        background-color: #F1FAFF;
+        cursor: pointer;
+        border-color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+
+    .s2-left-content button:hover {
+        background-color: #20254A;
+        color: white;
+    }
+
+    .s2-dog-img {
+        display: none;
+    }
+
+    .s2-bck-img {
+        max-height: 500px;
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/4/assets/what-are-bg.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .s2-dog-img {
+        display: none;
+    }
+
+    .s2-bck-img {
+        height: 500px;
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/4/assets/what-are-bg.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .s2-left-content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 13px;
+    }
+
+    .s2-left-content h3 span {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/what-are.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .s2-left-content h3 {
+        max-width: 59%;
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 32px;
+        color: #20254A;
+    }
+
+    .s2-left-content #frst-p {
+        max-width: 100%;
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 16px;
+    }
+
+    .s2-left-content #scnd-p,
+    .s2-left-content #thrd-p {
+        max-width: 100%;
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 16px;
+    }
+
+    .s2-left-content button {
+        font-family: "TT Norms Pro", sans-serif;
+        border-radius: 22px;
+        width: 174px;
+        color: #20254a;
+        height: 44px;
+        background-color: #F1FAFF;
+        cursor: pointer;
+        border-color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+
+    .s2-left-content button:hover {
+        background-color: #20254A;
+        color: white;
+    }
+
+}
+
+@media only screen and (min-width: 425px) {
+    .s2-left-content h3 {
+        max-width: 55%;
+    }
+
+    .s2-left-content button:hover {
+        background-color: #20254A;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .s2-dog-img {
+        display: block;
+    }
+
+    .s2-left-content button:hover {
+        background-color: #20254A;
+        color: white;
+    }
+
+    .s2-dog-img img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .s2-bck-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .s2-dog-img {
+        display: block;
+    }
+
+    .s2-left-content button:hover {
+        background-color: #20254A;
+        color: white;
+    }
+
+    .s2-dog-img img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .s2-bck-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s2-left-content h3 {
+        max-width: 68%;
+        font-size: 54px;
+        line-height: 54px;
+        color: #20254A;
+    }
+
+    .s2-left-content #frst-p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .s2-left-content #scnd-p,
+    .s2-left-content #thrd-p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .s2-dog-img {
+        display: block;
+    }
+
+    .s2-left-content button:hover {
+        background-color: #20254A;
+        color: white;
+    }
+
+    .s2-dog-img img {
+        width: 95%;
+    }
+
+    .s2-bck-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 600px;
+    }
+
+    .s2-left-content {
+        margin-top: 32px;
+    }
+
+    .s2-left-content h3 {
+        max-width: 68%;
+        font-size: 54px;
+        line-height: 54px;
+        color: #20254A;
+    }
+
+    .s2-left-content #frst-p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .s2-left-content #scnd-p,
+    .s2-left-content #thrd-p {
+        width: 100%;
+        font-size: 18px;
+        line-height: 29px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .s2-dog-img img {
+        width: 80%;
+    }
+}
+
+/*
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    ----------section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--section-2--------------------------------------------------------------------------------------
+    */
+
+@media only screen and (max-width:320px) {
+
+    /* <!-- swiper css --> */
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 70%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* products css */
+    .shop-title {
+        text-align: center;
+        font-family: Recoleta, serif;
+        font-size: 32px;
+        font-weight: 500;
+        padding-top: 30px;
+        color: #20254A;
+    }
+
+    .price {
+        position: relative;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        width: 14%;
+        height: 31px;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .from-span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: #20254A;
+    }
+
+    .prdct-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+    }
+
+    .prdct-1-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-1-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-1-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-1-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-1-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+    }
+
+    .prdct-2-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-2-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-2-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-2-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        width: 127px;
+        height: 30px;
+        margin-top: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+    }
+
+    .prdct-2-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+    }
+
+    .prdct-3-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-3-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-3-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+
+    .prdct-3-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        width: 127px;
+        height: 30px;
+        color: #20254A;
+    }
+
+    .prdct-3-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+    }
+
+    .prdct-4-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-4-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-4-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-4-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        width: 127px;
+        height: 30px;
+        color: #20254A;
+    }
+
+    .prdct-4-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+    }
+
+    .prdct-5-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-5-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-5-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-5-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        width: 127px;
+        height: 30px;
+        color: #20254A;
+    }
+
+    .prdct-5-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+    }
+
+    .prdct-6-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-6-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-6-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-6-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        width: 127px;
+        height: 30px;
+        color: #20254A;
+    }
+
+    .prdct-6-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+    }
+
+    .prdct-7-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-7-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-7-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-7-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        width: 127px;
+        height: 30px;
+        color: #20254A;
+    }
+
+    .prdct-7-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-8 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+    }
+
+    .prdct-8-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-8-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-8-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-8-btn {
+        margin-top: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        border-radius: 30px;
+        background-color: #E2E7F3;
+
+        color: #20254A;
+        width: 127px;
+        height: 30px;
+    }
+
+    .prdct-8-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-9 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+
+    }
+
+    .prdct-9-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+
+    }
+
+    .prdct-9-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-9-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-9-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        width: 127px;
+        height: 30px;
+        color: #20254A;
+    }
+
+    .prdct-9-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+}
+
+@media only screen and (min-width:375px) {
+
+    /* <!-- swiper css --> */
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 75%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* products css */
+    .shop-title {
+        text-align: center;
+        font-family: Recoleta, serif;
+        font-size: 32px;
+        font-weight: 500;
+        padding-top: 30px;
+        color: #20254A;
+    }
+
+    .price {
+        position: relative;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        width: 14%;
+        height: 31px;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .from-span {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 10px;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: #20254A;
+    }
+
+    .prdct-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .prdct-1-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-1-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-1-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-1-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-1-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .prdct-2-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-2-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-2-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-2-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-2-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .prdct-3-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-3-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-3-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-3-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-3-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .prdct-4-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-4-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-4-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-4-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-4-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .prdct-5-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-5-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-5-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-5-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-5-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .prdct-6-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-6-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-6-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-6-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-6-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .prdct-7-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-7-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-7-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-7-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-7-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-8 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .prdct-8-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-8-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-8-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-8-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-8-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+
+    .prdct-9 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .prdct-9-title {
+        font-family: Recoleta, serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .prdct-9-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #383838;
+    }
+
+    .prdct-9-btn-and-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin: 10px 0;
+    }
+
+    .prdct-9-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+
+    }
+
+    .prdct-9-btn:hover {
+        background-color: #dfe6f7;
+        color: white;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .shop-title {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .shop-title {
+        font-size: 50px;
+    }
+
+    .prdct-1-title {
+        font-size: 36px;
+    }
+
+    .prdct-1-dscrpt {
+        font-size: 18px;
+    }
+
+    .prdct-1-btn {
+
+        width: 173px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .prdct-2-title {
+        font-size: 36px;
+    }
+
+    .prdct-2-dscrpt {
+        font-size: 18px;
+    }
+
+    .prdct-2-btn {
+
+        width: 173px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .prdct-3-title {
+        font-size: 36px;
+    }
+
+    .prdct-3-dscrpt {
+        font-size: 18px;
+    }
+
+    .prdct-3-btn {
+
+        width: 173px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .prdct-4-title {
+        font-size: 36px;
+    }
+
+    .prdct-4-dscrpt {
+        font-size: 18px;
+    }
+
+    .prdct-4-btn {
+
+        width: 173px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .prdct-5-title {
+        font-size: 36px;
+    }
+
+    .prdct-5-dscrpt {
+        font-size: 18px;
+    }
+
+    .prdct-5-btn {
+
+        width: 173px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .prdct-6-title {
+        font-size: 36px;
+    }
+
+    .prdct-6-dscrpt {
+        font-size: 18px;
+    }
+
+    .prdct-6-btn {
+
+        width: 173px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .prdct-7-title {
+        font-size: 36px;
+    }
+
+    .prdct-7-dscrpt {
+        font-size: 18px;
+    }
+
+    .prdct-7-btn {
+
+        width: 173px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .prdct-8-title {
+        font-size: 36px;
+    }
+
+    .prdct-8-dscrpt {
+        font-size: 18px;
+    }
+
+    .prdct-8-btn {
+
+        width: 173px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .prdct-9-title {
+        font-size: 36px;
+    }
+
+    .prdct-9-dscrpt {
+        font-size: 18px;
+    }
+
+    .prdct-9-btn {
+
+        width: 173px;
+        height: 44px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+    .shop-title {
+        font-size: 54px;
+    }
+
+    .prdct-1-dscrpt {
+        font-size: 400;
+    }
+
+    .prdct-1-btn {
+        font-weight: 500;
+    }
+}
+
+/*
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3
+------------------section-3---section-3---section-3---section-3---section-3----section-3---------------------------------------------------------------------------------section-3 */
+@media only screen and (max-width:320px) {
+    .s4-img {
+        width: 229px;
+        height: 190px;
+    }
+
+    .s4-time-offer span {
+        background-color: #8EA1E2;
+        color: #ffffff;
+        font-family: "TT Norms Pro";
+        font-weight: 700;
+        font-size: 11px;
+        padding: 2px 4px;
+        border-radius: 10px;
+    }
+
+    .s4-title {
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #20254A;
+        margin: 16px 0;
+        width: 80%;
+        text-align: center;
+
+    }
+
+    .s4-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        background: transparent;
+        text-align: center;
+        margin: 0 0 24px 0;
+        text-align: center;
+        width: 80%;
+    }
+
+    .s4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        height: 600px;
+        margin: auto;
+        padding-top: 18px;
+        background-color: #F1FAFF;
+        border-radius: 30px;
+        position: relative;
+    }
+
+    .s4-cntnt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 24px;
+    }
+
+    .s4Btn {
+        width: 206px;
+        height: 62px;
+        border-radius: 30px;
+        border: none;
+        /* border-color: black; */
+        border: 2px solid black;
+        background: transparent;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+
+    .s4Btn:hover {
+        color: #fff;
+        background-color: #20254A;
+    }
+
+    /* .s4-ribbon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #20254A;
+    color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ } */
+
+    .ribbon {
+        position: absolute;
+        right: -5px;
+        top: -5px;
+        z-index: 1;
+        overflow: hidden;
+        width: 75px;
+        height: 75px;
+        text-align: right;
+    }
+
+    .ribbon span {
+        font-size: 10px;
+        font-weight: bold;
+        color: #FFF;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 20px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        width: 100px;
+        display: block;
+        background: #20254A;
+        background: linear-gradient(#20254A 0%, #20254A 100%);
+        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+        position: absolute;
+        top: 19px;
+        right: -21px;
+    }
+
+    .ribbon span::before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 100%;
+        z-index: -1;
+        border-left: 3px solid #20254A;
+        border-right: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid #20254A;
+    }
+
+    .ribbon span::after {
+        content: "";
+        position: absolute;
+        right: 0px;
+        top: 100%;
+        z-index: -1;
+        border-left: 3px solid transparent;
+        border-right: 3px solid #20254A;
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid #20254A;
+    }
+
+}
+
+@media only screen and (min-width:320px) {
+    .s4-img {
+        width: 227px;
+        height: 210px;
+    }
+
+    .s4-time-offer span {
+        background-color: #8EA1E2;
+        color: #ffffff;
+        font-family: "TT Norms Pro";
+        font-weight: 700;
+        font-size: 11px;
+        padding: 2px 4px;
+        border-radius: 10px;
+    }
+
+    .s4-title {
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 24px;
+        color: #20254A;
+        margin: 16px 0;
+        width: 80%;
+        text-align: center;
+
+    }
+
+    .s4-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        background: transparent;
+        text-align: center;
+        margin: 0 0 24px 0;
+        text-align: center;
+        width: 80%;
+    }
+
+    .s4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+        height: 600px;
+        margin: auto;
+        padding-top: 18px;
+        background-color: #F1FAFF;
+        border-radius: 30px;
+        position: relative;
+    }
+
+    .s4-cntnt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 24px;
+    }
+
+    .s4Btn {
+        width: 206px;
+        height: 62px;
+        border-radius: 30px;
+        border: none;
+        /* border-color: black; */
+        border: 2px solid black;
+        background: transparent;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+
+    .s4Btn:hover {
+        color: #fff;
+        background-color: #20254A;
+    }
+
+    /* .s4-ribbon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #20254A;
+        color: white;
+        width: 150px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+     } */
+
+    .ribbon {
+        position: absolute;
+        right: -5px;
+        top: -5px;
+        z-index: 1;
+        overflow: hidden;
+        width: 75px;
+        height: 75px;
+        text-align: right;
+    }
+
+    .ribbon span {
+        font-size: 10px;
+        font-weight: bold;
+        color: #FFF;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 20px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        width: 100px;
+        display: block;
+        background: #20254A;
+        background: linear-gradient(#20254A 0%, #20254A 100%);
+        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+        position: absolute;
+        top: 19px;
+        right: -21px;
+    }
+
+    .ribbon span::before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 100%;
+        z-index: -1;
+        border-left: 3px solid #20254A;
+        border-right: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid #20254A;
+    }
+
+    .ribbon span::after {
+        content: "";
+        position: absolute;
+        right: 0px;
+        top: 100%;
+        z-index: -1;
+        border-left: 3px solid transparent;
+        border-right: 3px solid #20254A;
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid #20254A;
+    }
+
+
+}
+
+@media only screen and (min-width:375px) {}
+
+.s4-img {
+
+    width: 228px;
+
+    height: 210px;
+}
+
+.s4Btn {
+    width: 206px;
+    height: 62px;
+    border-radius: 30px;
+    border: none;
+    /* border-color: black; */
+    border: 2px solid black;
+    background: transparent;
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+@media only screen and (min-width:425px) {
+
+    .s4-img {
+
+        width: 289px;
+        height: 249px;
+    }
+
+    .s4Btn {
+        width: 206px;
+        height: 62px;
+        border-radius: 30px;
+        border: none;
+        /* border-color: black; */
+        border: 2px solid black;
+        background: transparent;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+}
+
+@media only screen and (min-width:768px) {
+
+    .s4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid red; */
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .s4-title {
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 36px;
+    }
+
+    .s4-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+    }
+}
+
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+/* ------section-4------------section-4------------section-4------------section-4------------section-4------------section-4------ */
+@media only screen and (max-width:320px) {
+    .s5 {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/reflect.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .s5-cntnt-nd-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 780px;
+    }
+
+    .s5-cntnt {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 49px 15px 0 15px;
+    }
+
+    .s5-title {
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 32px;
+        color: #20254a;
+    }
+
+    .s5-title span {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/reflect.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .s5-p1 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .s5-p2 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .s5-p3 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .s5-btn {
+        width: 196px;
+        height: 50px;
+        border-radius: 30px;
+        margin-top: 16px;
+        background-color: #FECDBB;
+        border: none;
+        border: solid;
+        font-family: 'TT NORMS PRO';
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .s5-dog-img {
+        width: 250px;
+        height: 270px;
+    }
+}
+@media only screen and (min-width:320px){
+    .s5 {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/reflect.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .s5-cntnt-nd-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 780px;
+    }
+
+    .s5-cntnt {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 49px 15px 0 15px;
+    }
+
+    .s5-title {
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 32px;
+        color: #20254a;
+    }
+
+    .s5-title span {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/reflect.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .s5-p1 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .s5-p2 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .s5-p3 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .s5-btn {
+        width: 196px;
+        height: 50px;
+        border-radius: 30px;
+        margin-top: 16px;
+        background-color: #FECDBB;
+        border: none;
+        border: solid;
+        font-family: 'TT NORMS PRO';
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .s5-dog-img {
+        width: 270px;
+        height: 290px;
+    }
+}
+@media only screen and (min-width:768px){
+    
+}
