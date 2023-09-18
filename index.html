@@ -330,10 +330,54 @@
 </body>
 <!------------ navigation bar --------------------->
 <script>
-    let menuSticky = document.getElementById("index-menu-sticky");
-    window.addEventListener("scroll", function () {
-        menuSticky.classList.toggle("sticky", window.scrollY > 0);
+     let menuSticky = document.getElementById("index-menu-sticky");
+     window.addEventListener("scroll", function () {
+         menuSticky.classList.toggle("sticky", window.scrollY > 0);
     })
+    // let hb = document.querySelector(".cart-and-hamburger .hamburger")
+    // let elems = document.querySelector(".s1-nav-bar-elems")
+    // let ul = document.querySelector(".s1-nav-bar-elems ul")
+    // let logo = document.querySelector(".logo")
+    // let cart = document.querySelector(".cart-and-hamburger .cart")
+    // window.addEventListener("click", function () {
+    //     elems.style.display = "block"
+    //     ul.style.listStyle = "none"
+    //     logo.style.display = "none"
+    //     cart.style.display = "none"
+    //     menuSticky.style.backgroundColor = "#fff"
+    // })
+    // <script>
+    // let menuSticky = document.getElementById("index-menu-sticky");
+    let hb = document.querySelector(".cart-and-hamburger .hamburger");
+    let elems = document.querySelector(".s1-nav-bar-elems");
+    let ul = document.querySelector(".s1-nav-bar-elems ul");
+    let logo = document.querySelector(".logo");
+    let cart = document.querySelector(".cart-and-hamburger .cart");
+    
+    let isToggled = false; // Variable to track the toggle state
+    
+    hb.addEventListener("click", function () {
+        if (isToggled) {
+            // Restore the original CSS properties
+            elems.style.display = "";
+            ul.style.listStyle = "";
+            logo.style.display = "";
+            cart.style.display = "";
+            menuSticky.style.backgroundColor = "";
+        } else {
+            // Apply the CSS properties for the toggle state
+            elems.style.display = "block";
+            ul.style.listStyle = "none";
+            logo.style.display = "none";
+            cart.style.display = "none";
+            menuSticky.style.backgroundColor = "#fff";
+        }
+        
+        // Toggle the state
+        isToggled = !isToggled;
+    });
+</script>
+
 </script>
 
 <!-- Swiper JS -->

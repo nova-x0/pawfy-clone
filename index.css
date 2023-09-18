@@ -2530,6 +2530,13 @@
         height: 300px;
         /* border: 2px solid red; */
     }
+    .s4-cntnt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 24px 0;
+    }
 }
 
 @media only screen and (min-width:1024px) {
@@ -2638,6 +2645,10 @@
         font-size: 17px;
         font-weight: 500;
     }
+    .s5-btn:hover{
+        background-color: #20254A;
+        color: white;
+    }
 
     .s5-dog-img {
         width: 250px;
@@ -2717,12 +2728,134 @@
         font-size: 17px;
         font-weight: 500;
     }
-
+    .s5-btn:hover{
+        background-color: #20254A;
+        color: white;
+    }
     .s5-dog-img {
         width: 270px;
         height: 290px;
     }
 }
 @media only screen and (min-width:768px){
+
+    .s5-cntnt-nd-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        height: 500px;
+    }
+
+    .s5-btn:hover{
+        background-color: #20254A;
+        color: white;
+    }
+    .s5-dog-img {
+        width: 335px;
+        height: 400px;
+    }
+}
+@media only screen and (min-width:1024px){
+    .s5 {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/reflect.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .s5-cntnt-nd-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        height: 704px;
+    }
+    .s5-cntnt {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px 15px 0 15px;
+    }
+
+    .s5-title {
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 50px;
+        color: #20254a;
+    }
+
+    .s5-title span {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/reflect.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .s5-p1 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        margin-top: 10px;
+    }
+
+    .s5-p2 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-top: 10px;
+    }
+
+    .s5-p3 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-top: 10px;
+    }
+
+    .s5-btn {
+        width: 196px;
+        height: 50px;
+        border-radius: 30px;
+        margin-top: 16px;
+        background-color: #FECDBB;
+        border: none;
+        border: solid;
+        font-family: 'TT NORMS PRO';
+        font-size: 17px;
+        font-weight: 500;
+    }
+  
+    .s5-btn:hover{
+        background-color: #20254A;
+        color: white;
+    }
+    .s5-dog-img {
+        width: 798px;
+        height: 638px
+    }
+}
+@media only screen and (min-width:1440px){
+    .s5-title {
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 54px;
+        color: #20254a;
+    }
+
+    .s5-cntnt-nd-img {
+        display: flex;
+        height: 984px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+    .s5-dog-img {
+        width: 1025px;
+        height: 904px;
+    }
     
 }
