@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.li-fontStyling {
+    font-family: "TT Norms Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
 
 
 @media only screen and (max-width:327px) {
@@ -119,6 +124,7 @@
         padding: 20px 30px 10px;
         background-color: #FFECE2;
         box-shadow: 0 0 0.5rem 1px #00000029;
+
     }
 }
 
@@ -2530,6 +2536,7 @@
         height: 300px;
         /* border: 2px solid red; */
     }
+
     .s4-cntnt {
         display: flex;
         align-items: center;
@@ -2645,7 +2652,8 @@
         font-size: 17px;
         font-weight: 500;
     }
-    .s5-btn:hover{
+
+    .s5-btn:hover {
         background-color: #20254A;
         color: white;
     }
@@ -2655,7 +2663,8 @@
         height: 270px;
     }
 }
-@media only screen and (min-width:320px){
+
+@media only screen and (min-width:320px) {
     .s5 {
         background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/reflect.png);
         background-position: center;
@@ -2728,16 +2737,19 @@
         font-size: 17px;
         font-weight: 500;
     }
-    .s5-btn:hover{
+
+    .s5-btn:hover {
         background-color: #20254A;
         color: white;
     }
+
     .s5-dog-img {
         width: 270px;
         height: 290px;
     }
 }
-@media only screen and (min-width:768px){
+
+@media only screen and (min-width:768px) {
 
     .s5-cntnt-nd-img {
         display: flex;
@@ -2747,22 +2759,25 @@
         height: 500px;
     }
 
-    .s5-btn:hover{
+    .s5-btn:hover {
         background-color: #20254A;
         color: white;
     }
+
     .s5-dog-img {
         width: 335px;
         height: 400px;
     }
 }
-@media only screen and (min-width:1024px){
+
+@media only screen and (min-width:1024px) {
     .s5 {
         background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/reflect.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .s5-cntnt-nd-img {
         display: flex;
         align-items: center;
@@ -2770,6 +2785,7 @@
         flex-direction: row;
         height: 704px;
     }
+
     .s5-cntnt {
         display: flex;
         justify-content: center;
@@ -2827,17 +2843,19 @@
         font-size: 17px;
         font-weight: 500;
     }
-  
-    .s5-btn:hover{
+
+    .s5-btn:hover {
         background-color: #20254A;
         color: white;
     }
+
     .s5-dog-img {
         width: 798px;
         height: 638px
     }
 }
-@media only screen and (min-width:1440px){
+
+@media only screen and (min-width:1440px) {
     .s5-title {
         font-family: Recoleta, serif;
         font-weight: 500;
@@ -2853,9 +2871,246 @@
         flex-direction: row;
 
     }
+
     .s5-dog-img {
         width: 1025px;
         height: 904px;
     }
-    
+
 }
+
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+/* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
+ @media only screen and (max-width:320px) {
+    .s6-title {
+        text-align: center;
+        font-size: 30px;
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        color: #20254a;
+    }
+
+    .s6-img-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s6-dog-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .s6-icon-nd-title-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: fit-content;
+        gap: 20px;
+    }
+
+    .s6-title-1 {
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+        color: #20254a;
+        gap: 10px;
+    }
+
+    .s6-title-1 span {
+        color: #A6D0E8;
+    }
+
+    .s6-prgrph-1 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 55px;
+    }
+
+    .s6-icon-nd-title-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: fit-content;
+        gap: 7px;
+
+    }
+
+    .s6-title-2 {
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+        color: #20254a;
+        gap: 10px;
+    }
+
+    .s6-prgrph-2 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 55px;
+    }
+
+    .s6-icon-nd-title-3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: fit-content;
+        gap: 11px;
+    }
+
+    .s6-title-3 {
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+        color: #20254a;
+        gap: 10px;
+    }
+
+    .s6-prgrph-3 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 55px;
+    }
+
+}
+@media only screen and (min-width:320px) {
+    .s6-title {
+        text-align: center;
+        font-size: 38px;
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        color: #20254a;
+    }
+
+    .s6-img-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .s6-dog-img {
+        width: 340px;
+        height: 340px;
+    }
+
+    .s6-icon-nd-title-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: fit-content;
+        gap: 20px;
+    }
+
+    .s6-title-1 {
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+        color: #20254a;
+        gap: 10px;
+    }
+
+    .s6-title-1 span {
+        color: #A6D0E8;
+    }
+
+    .s6-prgrph-1 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 55px;
+    }
+
+    .s6-icon-nd-title-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: fit-content;
+        gap: 7px;
+
+    }
+
+    .s6-title-2 {
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+        color: #20254a;
+        gap: 10px;
+    }
+
+    .s6-prgrph-2 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 55px;
+    }
+
+    .s6-icon-nd-title-3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: fit-content;
+        gap: 11px;
+    }
+
+    .s6-title-3 {
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+        color: #20254a;
+        gap: 10px;
+    }
+
+    .s6-prgrph-3 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 55px;
+    }
+
+}
+@media only screen and (min-width:768) {
+    .s6-img-nd-cntnt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+} 
