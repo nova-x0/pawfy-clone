@@ -2909,208 +2909,450 @@
 /* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
 /* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
 /* secttion-5 secttion-5secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 secttion-5 */
- @media only screen and (max-width:320px) {
+@media only screen and (min-width:1174px) {
+
+
     .s6-title {
-        text-align: center;
-        font-size: 30px;
         font-family: Recoleta, serif;
+        font-size: 54px;
         font-weight: 500;
         color: #20254a;
+        text-align: center;
     }
 
-    .s6-img-box {
+    .s6-img-nd-cntnt {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
     }
 
-    .s6-dog-img {
-        width: 250px;
-        height: 250px;
+    .s6-img {
+        position: absolute;
+        left: -229px;
+        width: 834px;
+        height: 970px;
+    }
+
+    .s6-right-cntnt {
+        flex-basis: 52%;
     }
 
     .s6-icon-nd-title-1 {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        gap: 16px;
         width: fit-content;
-        gap: 20px;
     }
 
     .s6-title-1 {
-        font-family: Recoleta, serif;
-        font-size: 30px;
-        font-weight: 500;
         color: #20254a;
-        gap: 10px;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
     }
 
     .s6-title-1 span {
-        color: #A6D0E8;
+        color: #A8D1E9;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 16px;
     }
 
     .s6-prgrph-1 {
         font-family: 'TT Norms Pro', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 29px;
-        margin-left: 55px;
+        margin-left: 52px;
+        margin-top: 16px;
     }
 
     .s6-icon-nd-title-2 {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        gap: 5px;
         width: fit-content;
-        gap: 7px;
-
     }
 
     .s6-title-2 {
-        font-family: Recoleta, serif;
-        font-size: 30px;
-        font-weight: 500;
         color: #20254a;
-        gap: 10px;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 16px;
     }
 
     .s6-prgrph-2 {
         font-family: 'TT Norms Pro', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 29px;
         margin-left: 55px;
+        margin-top: 16px;
     }
 
     .s6-icon-nd-title-3 {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        gap: 10px;
         width: fit-content;
-        gap: 11px;
     }
 
     .s6-title-3 {
-        font-family: Recoleta, serif;
-        font-size: 30px;
-        font-weight: 500;
         color: #20254a;
-        gap: 10px;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 16px;
     }
 
     .s6-prgrph-3 {
         font-family: 'TT Norms Pro', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 29px;
-        margin-left: 55px;
+        margin-left: 54px;
+        margin-top: 16px;
     }
-
 }
-@media only screen and (min-width:320px) {
+
+@media only screen and (max-width:1174px) {
     .s6-title {
-        text-align: center;
-        font-size: 38px;
         font-family: Recoleta, serif;
+        font-size: 54px;
         font-weight: 500;
         color: #20254a;
+        text-align: center;
     }
 
-    .s6-img-box {
+    .s6-img-nd-cntnt {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
     }
 
-    .s6-dog-img {
-        width: 340px;
-        height: 340px;
+    .s6-img {
+        position: absolute;
+        left: -229px;
+        width: 715px;
+        height: 759px;
+    }
+
+    .s6-right-cntnt {
+        flex-basis: 57%;
+        margin-top: 80px;
     }
 
     .s6-icon-nd-title-1 {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        gap: 16px;
         width: fit-content;
-        gap: 20px;
     }
 
     .s6-title-1 {
-        font-family: Recoleta, serif;
-        font-size: 30px;
-        font-weight: 500;
         color: #20254a;
-        gap: 10px;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
     }
 
     .s6-title-1 span {
-        color: #A6D0E8;
+        color: #A8D1E9;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 16px;
     }
 
     .s6-prgrph-1 {
         font-family: 'TT Norms Pro', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 29px;
-        margin-left: 55px;
+        margin-left: 52px;
+        /* margin-top: 16px; */
+        width: 63%;
     }
 
     .s6-icon-nd-title-2 {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        gap: 5px;
         width: fit-content;
-        gap: 7px;
-
     }
 
     .s6-title-2 {
-        font-family: Recoleta, serif;
-        font-size: 30px;
-        font-weight: 500;
         color: #20254a;
-        gap: 10px;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 16px;
     }
 
     .s6-prgrph-2 {
         font-family: 'TT Norms Pro', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 29px;
         margin-left: 55px;
+        /* margin-top: 16px; */
+        width: 63%;
     }
 
     .s6-icon-nd-title-3 {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        gap: 10px;
         width: fit-content;
-        gap: 11px;
     }
 
     .s6-title-3 {
-        font-family: Recoleta, serif;
-        font-size: 30px;
-        font-weight: 500;
         color: #20254a;
-        gap: 10px;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 16px;
     }
 
     .s6-prgrph-3 {
         font-family: 'TT Norms Pro', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 29px;
-        margin-left: 55px;
+        margin-left: 54px;
+        /* margin-top: 16px; */
+        width: 63%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .s6-img {
+        position: absolute;
+        left: -185px;
+        width: 525px;
+        height: 479px;
     }
 
 }
-@media only screen and (min-width:768) {
-    .s6-img-nd-cntnt{
+
+@media only screen and (max-width:768px) {
+    .s6-img {
+        position: static;
+        width: 390px;
+        height: 380px;
+    }
+
+    .s6-img-nd-cntnt {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
     }
-    
-} 
+
+    .s6-right-cntnt {
+        flex-basis: 57%;
+        margin-top: 0;
+        padding-left: 19px;
+    }
+
+    .s6-icon-nd-title-1 {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: fit-content;
+    }
+
+    .s6-title-1 {
+        color: #20254a;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .s6-title-1 span {
+        color: #A8D1E9;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+
+    .s6-prgrph-1 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 52px;
+        /* margin-top: 16px; */
+        width: 63%;
+    }
+
+    .s6-icon-nd-title-2 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        width: fit-content;
+    }
+
+    .s6-title-2 {
+        color: #20254a;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+
+    .s6-prgrph-2 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 55px;
+        /* margin-top: 16px; */
+        width: 63%;
+    }
+
+    .s6-icon-nd-title-3 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
+    }
+
+    .s6-title-3 {
+        color: #20254a;
+        font-family: Recoleta, serif;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+
+    .s6-prgrph-3 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 54px;
+        /* margin-top: 16px; */
+        width: 63%;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .s6-title {
+        font-family: Recoleta, serif;
+        font-size: 32px;
+        font-weight: 500;
+        color: #20254a;
+        text-align: center;
+    }
+    .s6-img {
+        position: static;
+        width: 365px;
+        height: 380px;
+    }
+
+    .s6-img-nd-cntnt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .s6-right-cntnt {
+        flex-basis: 57%;
+        margin-top: 0;
+        padding-left: 19px;
+    }
+
+    .s6-icon-nd-title-1 {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: fit-content;
+    }
+
+    .s6-title-1 {
+        color: #20254a;
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .s6-title-1 span {
+        color: #A8D1E9;
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+
+    .s6-prgrph-1 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 52px;
+        /* margin-top: 16px; */
+        width: 84%;
+    }
+
+    .s6-icon-nd-title-2 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        width: fit-content;
+    }
+
+    .s6-title-2 {
+        color: #20254a;
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+
+    .s6-prgrph-2 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 55px;
+        /* margin-top: 16px; */
+        width: 84%;
+    }
+
+    .s6-icon-nd-title-3 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: fit-content;
+    }
+
+    .s6-title-3 {
+        color: #20254a;
+        font-family: Recoleta, serif;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 16px;
+    }
+
+    .s6-prgrph-3 {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 29px;
+        margin-left: 54px;
+        /* margin-top: 16px; */
+        width: 84%;
+    }
+}
+@media only screen and (max-width:321px){
+    .s6-img {
+        
+        width: 290px;
+        height: 365px;
+    }
+}
