@@ -4061,11 +4061,11 @@
 @media only screen and (max-width:425px){
     .s8-title {
         
-        font-size: 24px;
+        font-size: 30px;
        
     }
     .s8-prgrph{
-        font-family: 'TT Norms Pro', sans-serif; font-size: 13px; font-weight: 400; text-align: center;
+        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
     }
     .s8-prdct-1 img,
     .s8-prdct-2 img,
@@ -4075,40 +4075,40 @@
     }
     .s8-prdct-1-title {
         font-family: Recoleta, serif;
-        font-size: 26px;
+        font-size: 30px;
         font-weight: 500;
         color: #20254A;
     }
 
     .s8-prdct-1-dscrpt {
         font-family: "TT Norms Pro", sans-serif;
-        font-size: 13px;
+        font-size: 18px;
         font-weight: 400;
         color: #383838;
     }
     .s8-prdct-2-title {
         font-family: Recoleta, serif;
-        font-size: 26px;
+        font-size: 30px;
         font-weight: 500;
         color: #20254A;
     }
 
     .s8-prdct-2-dscrpt {
         font-family: "TT Norms Pro", sans-serif;
-        font-size: 13px;
+        font-size: 18px;
         font-weight: 400;
         color: #383838;
     }
     .s8-prdct-3-title {
         font-family: Recoleta, serif;
-        font-size: 26px;
+        font-size: 30px;
         font-weight: 500;
         color: #20254A;
     }
 
     .s8-prdct-3-dscrpt {
         font-family: "TT Norms Pro", sans-serif;
-        font-size: 13px;
+        font-size: 18px;
         font-weight: 400;
         color: #383838;
     }
