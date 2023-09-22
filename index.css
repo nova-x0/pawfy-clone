@@ -3572,6 +3572,9 @@
         text-align: center;
         margin-bottom: 20px;
     }
+    .s8-prgrph{
+        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
+    }
 
     .s8-products {
         display: flex;
@@ -3789,7 +3792,9 @@
         text-align: center;
         margin-bottom: 20px;
     }
-
+    .s8-prgrph{
+        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
+    }
     .s8-products {
         display: flex;
         align-items: center;
@@ -4006,7 +4011,9 @@
         text-align: center;
         margin-bottom: 20px;
     }
-
+    .s8-prgrph{
+        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
+    }
     .s8-products {
 
         gap: 20px;
@@ -4035,7 +4042,9 @@
         text-align: center;
         margin-bottom: 20px;
     }
-
+    .s8-prgrph{
+        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
+    }
     .s8-products {
 
         gap: 0px;
@@ -4048,4 +4057,83 @@
         height: 250px;
     }
 
+}
+@media only screen and (max-width:425px){
+    .s8-title {
+        
+        font-size: 24px;
+       
+    }
+    .s8-prgrph{
+        font-family: 'TT Norms Pro', sans-serif; font-size: 13px; font-weight: 400; text-align: center;
+    }
+    .s8-prdct-1 img,
+    .s8-prdct-2 img,
+    .s8-prdct-3 img {
+        width: 150px;
+        height: 150px;
+    }
+    .s8-prdct-1-title {
+        font-family: Recoleta, serif;
+        font-size: 26px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .s8-prdct-1-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: #383838;
+    }
+    .s8-prdct-2-title {
+        font-family: Recoleta, serif;
+        font-size: 26px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .s8-prdct-2-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: #383838;
+    }
+    .s8-prdct-3-title {
+        font-family: Recoleta, serif;
+        font-size: 26px;
+        font-weight: 500;
+        color: #20254A;
+    }
+
+    .s8-prdct-3-dscrpt {
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: #383838;
+    }
+    .s8-prdct-1-btn, .s8-prdct-2-btn, .s8-prdct-3-btn {
+        background-color: #E2E7F3;
+        border-radius: 30px;
+        margin-top: 10px;
+        width: 127px;
+        height: 30px;
+        font-family: "TT Norms Pro", sans-serif;
+        border: none;
+        color: #20254A;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .price {
+        position: relative;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+        width: 14%;
+        height: 31px;
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        color: #20254A;
+    }
 }
