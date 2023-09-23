@@ -3364,7 +3364,7 @@
     .s6-img {
 
         width: 290px;
-        height: 365px;
+        height: 295px;
     }
 
 }
@@ -3572,8 +3572,12 @@
         text-align: center;
         margin-bottom: 20px;
     }
-    .s8-prgrph{
-        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
+
+    .s8-prgrph {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
     }
 
     .s8-products {
@@ -3792,9 +3796,14 @@
         text-align: center;
         margin-bottom: 20px;
     }
-    .s8-prgrph{
-        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
+
+    .s8-prgrph {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
     }
+
     .s8-products {
         display: flex;
         align-items: center;
@@ -4011,9 +4020,14 @@
         text-align: center;
         margin-bottom: 20px;
     }
-    .s8-prgrph{
-        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
+
+    .s8-prgrph {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
     }
+
     .s8-products {
 
         gap: 20px;
@@ -4042,9 +4056,14 @@
         text-align: center;
         margin-bottom: 20px;
     }
-    .s8-prgrph{
-        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
+
+    .s8-prgrph {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
     }
+
     .s8-products {
 
         gap: 0px;
@@ -4058,21 +4077,28 @@
     }
 
 }
-@media only screen and (max-width:425px){
+
+@media only screen and (max-width:425px) {
     .s8-title {
-        
+
         font-size: 30px;
-       
+
     }
-    .s8-prgrph{
-        font-family: 'TT Norms Pro', sans-serif; font-size: 18px; font-weight: 400; text-align: center;
+
+    .s8-prgrph {
+        font-family: 'TT Norms Pro', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
     }
+
     .s8-prdct-1 img,
     .s8-prdct-2 img,
     .s8-prdct-3 img {
         width: 150px;
         height: 150px;
     }
+
     .s8-prdct-1-title {
         font-family: Recoleta, serif;
         font-size: 30px;
@@ -4086,6 +4112,7 @@
         font-weight: 400;
         color: #383838;
     }
+
     .s8-prdct-2-title {
         font-family: Recoleta, serif;
         font-size: 30px;
@@ -4099,6 +4126,7 @@
         font-weight: 400;
         color: #383838;
     }
+
     .s8-prdct-3-title {
         font-family: Recoleta, serif;
         font-size: 30px;
@@ -4112,7 +4140,10 @@
         font-weight: 400;
         color: #383838;
     }
-    .s8-prdct-1-btn, .s8-prdct-2-btn, .s8-prdct-3-btn {
+
+    .s8-prdct-1-btn,
+    .s8-prdct-2-btn,
+    .s8-prdct-3-btn {
         background-color: #E2E7F3;
         border-radius: 30px;
         margin-top: 10px;
@@ -4124,6 +4155,7 @@
         font-size: 10px;
         font-weight: 500;
     }
+
     .price {
         position: relative;
         display: flex;
@@ -4139,13 +4171,15 @@
 }
 
 @media only screen and (max-width:1330px) and (min-width:1025px) {
+
     .s8-prdct-1 img,
     .s8-prdct-2 img,
     .s8-prdct-3 img {
         width: 250px;
         height: 250px;
     }
-      .s8-products {
+
+    .s8-products {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -4153,7 +4187,8 @@
         flex-wrap: wrap;
     }
 }
-@media only screen and (max-width:1119px) and (min-width:1025px){
+
+@media only screen and (max-width:1119px) and (min-width:1025px) {
     .s8-products {
         display: flex;
         align-items: center;
@@ -4162,6 +4197,7 @@
         flex-wrap: wrap;
     }
 }
+
 /* section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
@@ -4179,3 +4215,278 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 */
+@media only screen and (min-width:1440px) {
+    .s9-back-img {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/benefits.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .s9-cntnt-nd-img {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+    .s9-cntnt {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        padding-left: 101px;
+        
+    }
+    
+    .s9-cntnt-title {
+        font-family: 'Recoleta', serif;
+        font-size: 54px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        color: #20254a;
+    }
+    
+    .s9-icons-nd-offers {
+        display: flex;
+        list-style: none;
+        gap: 107px;
+        list-style: none;
+    }
+    
+    .s9-icons-nd-offers li {
+        display: flex;
+        flex-direction: column;
+    }
+    .s9-icons-nd-offers li img{
+        width: 62px;
+        height: 62px;
+    }
+    
+    
+    .s9-icons-nd-offers li span {
+        margin-top: 16px;
+        font-family: 'TT Norms Pro';
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #20254a;
+    }
+    .s9-img{
+        height: 500px;
+        width: 500px;
+        padding-right: 90px;
+    }
+}
+@media only screen and (max-width:1440px) {
+    .s9-back-img {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/benefits.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .s9-cntnt-nd-img {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    
+    .s9-cntnt {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        padding-left: 101px;
+        
+    }
+    
+    .s9-cntnt-title {
+        font-family: 'Recoleta', serif;
+        font-size: 54px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        color: #20254a;
+    }
+    
+    .s9-icons-nd-offers {
+        display: flex;
+        list-style: none;
+        gap: 107px;
+        list-style: none;
+    }
+    
+    .s9-icons-nd-offers li {
+        display: flex;
+        flex-direction: column;
+    }
+    .s9-icons-nd-offers li img{
+        width: 62px;
+        height: 62px;
+    }
+    
+    
+    .s9-icons-nd-offers li span {
+        margin-top: 16px;
+        font-family: 'TT Norms Pro';
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #20254a;
+    }
+    .s9-img{
+        height: 500px;
+        width: 500px;
+        padding-right: 90px;
+    }
+}
+
+@media only screen and (max-width:1190px){
+    .s9-img{
+        
+        padding-right: 10px;
+    }
+    .s9-cntnt {
+      
+        padding-left: 50px;
+        
+    }
+    
+}
+@media only screen and (max-width:1086px){
+    .s9-back-img{
+
+        height: 442px;
+    }
+    .s9-cntnt{
+        height: 442px;
+    }
+    .s9-img{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width:972px){
+    .s9-cntnt{
+        padding-left: 16px;
+    }
+    .s9-icons-nd-offers{
+        gap: 76px;
+    }
+    .s9-img{
+        padding-right: 0px;
+    }
+}
+@media only screen and (max-width:826px){
+    .s9-icons-nd-offers {
+        gap: 34px;
+    }
+}
+@media only screen and (max-width:768px){
+    .s9-cntnt{
+        padding-left: 16px;
+    } 
+    .s9-cntnt-title {
+        font-size: 36px;
+        margin-bottom: 21px;
+    }
+    .s9-icons-nd-offers{
+        
+        flex-wrap: wrap;
+        width: 73%;
+        gap: 53px;
+        height: 303px;
+        padding-left: 74px;
+    }
+}
+@media only screen and (max-width:701px){
+   
+    .s9-icons-nd-offers {
+        padding-left: 30px;
+    }
+}
+@media only screen and (max-width:641px){
+.s9-icons-nd-offers{
+    padding-left: 0;
+}
+}
+@media only screen and (max-width:600px){
+    .s9-back-img{
+        height: 832px;
+        background-size: cover;
+    }
+    .s9-cntnt-nd-img{
+        flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    }
+    .s9-cntnt{
+        padding-left: 0;
+    align-items: center;
+    }
+    .s9-cntnt-title{
+        font-size: 32px;
+    }
+    .s9-icons-nd-offers{
+        justify-content: center;
+        gap: 148px;
+        width: 52%;
+    }
+    .s9-img{
+        width: 250px;
+        height: 300px;
+    }
+}
+@media only screen and (max-width:585px){
+    .s9-back-img{
+        height: 742px;
+    }
+    .s9-cntnt-nd-img{
+        gap: 0;
+    }
+    .s9-icons-nd-offers{
+        gap: 70px;
+        width:40%;
+    }
+}
+@media only screen and (max-width:584px){
+    .s9-back-img{
+        height: 543px;
+    }
+    .s9-cntnt{
+        height: 243px;
+    }
+    .s9-icons-nd-offers{
+    width: 100%;
+    height: 127px;
+
+    }
+}
+@media only screen and (max-width:494px){
+    .s9-icons-nd-offers{
+        gap: 40px;
+    }
+    .s9-icons-nd-offers li img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media only screen and (max-width:454px){
+    .s9-back-img{
+        height: 690px;
+    }
+    .s9-cntnt-nd-img{
+        gap:0;
+    }
+    .s9-cntnt{
+        height: 390px;
+    }
+    .s9-icons-nd-offers{
+        width: 61%;
+        height: 258px;
+    }
+    .li2{
+        margin-right: 25px;
+    }
+}
