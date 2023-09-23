@@ -4137,3 +4137,45 @@
         color: #20254A;
     }
 }
+
+@media only screen and (max-width:1330px) and (min-width:1025px) {
+    .s8-prdct-1 img,
+    .s8-prdct-2 img,
+    .s8-prdct-3 img {
+        width: 250px;
+        height: 250px;
+    }
+      .s8-products {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 134px;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:1119px) and (min-width:1025px){
+    .s8-products {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 86px;
+        flex-wrap: wrap;
+    }
+}
+/* section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8
+section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 */
