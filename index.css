@@ -4221,13 +4221,13 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .s9-cntnt-nd-img {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
     }
-    
+
     .s9-cntnt {
         display: flex;
         align-items: flex-start;
@@ -4236,9 +4236,9 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         width: 100%;
         height: 600px;
         padding-left: 101px;
-        
+
     }
-    
+
     .s9-cntnt-title {
         font-family: 'Recoleta', serif;
         font-size: 54px;
@@ -4246,24 +4246,25 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         margin-bottom: 60px;
         color: #20254a;
     }
-    
+
     .s9-icons-nd-offers {
         display: flex;
         list-style: none;
         gap: 107px;
         list-style: none;
     }
-    
+
     .s9-icons-nd-offers li {
         display: flex;
         flex-direction: column;
     }
-    .s9-icons-nd-offers li img{
+
+    .s9-icons-nd-offers li img {
         width: 62px;
         height: 62px;
     }
-    
-    
+
+
     .s9-icons-nd-offers li span {
         margin-top: 16px;
         font-family: 'TT Norms Pro';
@@ -4272,25 +4273,27 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         line-height: 26px;
         color: #20254a;
     }
-    .s9-img{
+
+    .s9-img {
         height: 500px;
         width: 500px;
         padding-right: 90px;
     }
 }
+
 @media only screen and (max-width:1440px) {
     .s9-back-img {
         background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/benefits.png);
         background-position: center;
         background-repeat: no-repeat;
     }
-    
+
     .s9-cntnt-nd-img {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
     }
-    
+
     .s9-cntnt {
         display: flex;
         align-items: flex-start;
@@ -4299,9 +4302,9 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         width: 100%;
         height: 600px;
         padding-left: 101px;
-        
+
     }
-    
+
     .s9-cntnt-title {
         font-family: 'Recoleta', serif;
         font-size: 54px;
@@ -4309,24 +4312,25 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         margin-bottom: 60px;
         color: #20254a;
     }
-    
+
     .s9-icons-nd-offers {
         display: flex;
         list-style: none;
         gap: 107px;
         list-style: none;
     }
-    
+
     .s9-icons-nd-offers li {
         display: flex;
         flex-direction: column;
     }
-    .s9-icons-nd-offers li img{
+
+    .s9-icons-nd-offers li img {
         width: 62px;
         height: 62px;
     }
-    
-    
+
+
     .s9-icons-nd-offers li span {
         margin-top: 16px;
         font-family: 'TT Norms Pro';
@@ -4335,64 +4339,76 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         line-height: 26px;
         color: #20254a;
     }
-    .s9-img{
+
+    .s9-img {
         height: 500px;
         width: 500px;
         padding-right: 90px;
     }
 }
 
-@media only screen and (max-width:1190px){
-    .s9-img{
-        
+@media only screen and (max-width:1190px) {
+    .s9-img {
+
         padding-right: 10px;
     }
+
     .s9-cntnt {
-      
+
         padding-left: 50px;
-        
+
     }
-    
+
 }
-@media only screen and (max-width:1086px){
-    .s9-back-img{
+
+@media only screen and (max-width:1086px) {
+    .s9-back-img {
 
         height: 442px;
     }
-    .s9-cntnt{
+
+    .s9-cntnt {
         height: 442px;
     }
-    .s9-img{
+
+    .s9-img {
         height: 400px;
         width: 400px;
     }
 }
-@media only screen and (max-width:972px){
-    .s9-cntnt{
+
+@media only screen and (max-width:972px) {
+    .s9-cntnt {
         padding-left: 16px;
     }
-    .s9-icons-nd-offers{
+
+    .s9-icons-nd-offers {
         gap: 76px;
     }
-    .s9-img{
+
+    .s9-img {
         padding-right: 0px;
     }
 }
-@media only screen and (max-width:826px){
+
+@media only screen and (max-width:826px) {
     .s9-icons-nd-offers {
         gap: 34px;
     }
 }
-@media only screen and (max-width:768px){
-    .s9-cntnt{
+
+@media only screen and (max-width:768px) {
+    .s9-cntnt {
         padding-left: 16px;
-    } 
+    }
+
     .s9-cntnt-title {
         font-size: 36px;
         margin-bottom: 21px;
     }
-    .s9-icons-nd-offers{
-        
+
+    .s9-icons-nd-offers {
+
         flex-wrap: wrap;
         width: 73%;
         gap: 53px;
@@ -4400,93 +4416,634 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         padding-left: 74px;
     }
 }
-@media only screen and (max-width:701px){
-   
+
+@media only screen and (max-width:701px) {
+
     .s9-icons-nd-offers {
         padding-left: 30px;
     }
 }
-@media only screen and (max-width:641px){
-.s9-icons-nd-offers{
-    padding-left: 0;
+
+@media only screen and (max-width:641px) {
+    .s9-icons-nd-offers {
+        padding-left: 0;
+    }
 }
-}
-@media only screen and (max-width:600px){
-    .s9-back-img{
+
+@media only screen and (max-width:600px) {
+    .s9-back-img {
         height: 832px;
         background-size: cover;
     }
-    .s9-cntnt-nd-img{
+
+    .s9-cntnt-nd-img {
         flex-wrap: wrap;
-    justify-content: center;
-    gap: 90px;
+        justify-content: center;
+        gap: 90px;
     }
-    .s9-cntnt{
+
+    .s9-cntnt {
         padding-left: 0;
-    align-items: center;
+        align-items: center;
     }
-    .s9-cntnt-title{
+
+    .s9-cntnt-title {
         font-size: 32px;
     }
-    .s9-icons-nd-offers{
+
+    .s9-icons-nd-offers {
         justify-content: center;
         gap: 148px;
         width: 52%;
     }
-    .s9-img{
+
+    .s9-img {
         width: 250px;
         height: 300px;
     }
 }
-@media only screen and (max-width:585px){
-    .s9-back-img{
+
+@media only screen and (max-width:585px) {
+    .s9-back-img {
         height: 742px;
     }
-    .s9-cntnt-nd-img{
+
+    .s9-cntnt-nd-img {
         gap: 0;
     }
-    .s9-icons-nd-offers{
+
+    .s9-icons-nd-offers {
         gap: 70px;
-        width:40%;
+        width: 40%;
     }
 }
-@media only screen and (max-width:584px){
-    .s9-back-img{
+
+@media only screen and (max-width:584px) {
+    .s9-back-img {
         height: 543px;
     }
-    .s9-cntnt{
+
+    .s9-cntnt {
         height: 243px;
     }
-    .s9-icons-nd-offers{
-    width: 100%;
-    height: 127px;
+
+    .s9-icons-nd-offers {
+        width: 100%;
+        height: 127px;
 
     }
 }
-@media only screen and (max-width:494px){
-    .s9-icons-nd-offers{
+
+@media only screen and (max-width:494px) {
+    .s9-icons-nd-offers {
         gap: 40px;
     }
-    .s9-icons-nd-offers li img{
+
+    .s9-icons-nd-offers li img {
         width: 40px;
         height: 40px;
     }
 }
-@media only screen and (max-width:454px){
-    .s9-back-img{
+
+@media only screen and (max-width:454px) {
+    .s9-back-img {
         height: 690px;
     }
-    .s9-cntnt-nd-img{
-        gap:0;
+
+    .s9-cntnt-nd-img {
+        gap: 0;
     }
-    .s9-cntnt{
+
+    .s9-cntnt {
         height: 390px;
     }
-    .s9-icons-nd-offers{
+
+    .s9-icons-nd-offers {
         width: 61%;
         height: 258px;
     }
-    .li2{
+
+    .li2 {
         margin-right: 25px;
+    }
+}
+
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+/* section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9 section-9  */
+@media only screen and (min-width:1440px) {
+    .s10-bck-img {
+        background-image: url(https://pawfy.com/cdn/shop/t/1/assets/reviews-bg.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .s10-title {
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 54px;
+        color: #20254A;
+        text-align: center;
+        padding: 54px 0;
+    }
+
+    .s10-title span {
+        background-image: url(https://pawfy.com/cdn/shop/t/1/assets/reviews-span.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .s10-reviews {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .s10-rv-1-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .s10-r1_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r1-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r1_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r1 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-r2_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r2-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r2_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r2 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-rv-3-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .s10-r3_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r3-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r3_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r3 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-r4_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r4-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r4_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r4 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-rv-5-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .s10-r5_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r5-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r5_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r5 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-r6_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r6-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r6_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r6 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+}
+
+@media only screen and (max-width:1440px) {
+    .s10-bck-img {
+        background-image: url(https://pawfy.com/cdn/shop/t/1/assets/reviews-bg.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .s10-title {
+        font-family: Recoleta, serif;
+        font-weight: 500;
+        font-size: 54px;
+        color: #20254A;
+        text-align: center;
+        padding: 54px 0;
+    }
+
+    .s10-title span {
+        background-image: url(https://pawfy.com/cdn/shop/t/1/assets/reviews-span.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .s10-reviews {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .s10-rv-1-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .s10-r1_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r1-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r1_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r1 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-r2_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r2-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r2_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r2 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-rv-3-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .s10-r3_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r3-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r3_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r3 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-r4_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r4-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r4_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r4 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-rv-5-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .s10-r5_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r5-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r5_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r5 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+    .s10-r6_name-nd-review {
+        padding: 24px;
+        border-radius: 24px;
+        background-color: #fff;
+    }
+
+    .s10-r6-name {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #20254A;
+    }
+
+    .s10-r6_name-nd-review img {
+        padding: 10px 0;
+    }
+
+    .s10-r6 {
+        font-family: "TT Norms Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: #20254A;
+    }
+
+}
+
+@media only screen and (max-width:1390px) {
+    .s10-reviews {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width:1301px) {
+    .s10-reviews {
+        gap: 0px;
+    }
+
+    .s10-rv-1-2 {
+        align-items: flex-start;
+        flex: 217%;
+    }
+
+    .s10-r1_name-nd-review {
+        width: 80%;
+    }
+
+    .s10-r2_name-nd-review {
+        width: 80%;
+    }
+
+    .s10-rv-3-4 {
+        align-items: flex-start;
+        flex: 213%;
+    }
+
+    .s10-r3_name-nd-review {
+        width: 80%;
+    }
+
+    .s10-r4_name-nd-review {
+        width: 80%;
+    }
+
+    .s10-rv-5-6 {
+        align-items: flex-start;
+        flex: 202%;
+    }
+
+    .s10-r5_name-nd-review {
+        width: 80%;
+    }
+
+    .s10-r6_name-nd-review {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .s10-reviews {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .s10-reviews {
+        width: 98%;
+        margin-left: 10px;
+    }
+
+    .s10-title {
+        font-size: 36px;
+    }
+
+    .s10-title span {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+
+    .s10-r1_name-nd-review,
+    .s10-r2_name-nd-review,
+    .s10-r3_name-nd-review,
+    .s10-r4_name-nd-review,
+    .s10-r5_name-nd-review,
+    .s10-r6_name-nd-review {
+        margin: auto;
     }
 }
