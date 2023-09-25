@@ -4551,6 +4551,7 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 1360px;
     }
 
     .s10-title {
@@ -5047,3 +5048,197 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         margin: auto;
     }
 }
+
+/* <!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10  -->
+<!-- section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 section-10 */
+@media only screen and (min-width:1440px) {
+    .s11{
+
+        width: 90%;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 20px;
+        padding-top: 20px;
+        margin-top: 100px;
+    }
+    .s11-cntnt-nd-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .s11-cntnt{
+        margin-left: 20px;
+    }
+
+    .s11-title {
+        font-family: Recoleta, serif;
+        font-size: 54px;
+        font-weight: 500;
+        color: #20254A;
+        margin-bottom: 20px;
+    }
+
+    .s11-title span {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/subsave.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .s11-prgrph-1{
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        margin-bottom: 20px;
+    }
+    .s11-prgrph-2{
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 29px;
+    }
+
+    .s11-img {
+        width: 47%;
+        height: 405px;
+    
+    }
+
+}
+@media only screen and (max-width:1440px) {
+    .s11{
+
+        width: 90%;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 20px;
+        padding-top: 20px;
+        margin-top: 100px;
+    }
+    .s11-cntnt-nd-img {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .s11-cntnt{
+        margin-left: 20px;
+    }
+
+    .s11-title {
+        font-family: Recoleta, serif;
+        font-size: 54px;
+        font-weight: 500;
+        color: #20254A;
+        margin-bottom: 20px;
+    }
+
+    .s11-title span {
+        background-image: url(https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/subsave.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .s11-prgrph-1{
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        margin-bottom: 20px;
+    }
+    .s11-prgrph-2{
+        font-family: "TT Norms Pro", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 29px;
+    }
+
+    .s11-img {
+        width: 47%;
+        height: 405px;
+    
+    }
+
+}
+@media only screen and (max-width:768px) {
+    .s11-img {
+        width: 47%;
+        height: 342px;
+    }
+    
+    .s11-title {
+        font-size: 36px;
+    }
+    .s11-prgrph-1{
+        font-size: 16px;
+    }
+    .s11-prgrph-2{
+        font-size: 14px;
+    }
+    .s11-img {
+        height: 250px;
+    }
+
+}
+@media only screen and (max-width:426px){
+    .s11-img {
+        height: 310px;
+        width: 100%;
+    }
+    .s11-cntnt-nd-img{
+        flex-wrap: wrap;
+    justify-content: center;
+    }
+}
+@media only screen and (max-width:425px){
+    .s11-img {
+        height: 260px;
+    }
+}
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
+/* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
