@@ -5212,11 +5212,23 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
         flex-wrap: wrap;
     justify-content: center;
     }
+    .s11-cntnt-nd-img{
+        flex-direction: column-reverse;
+    }
+ 
 }
 @media only screen and (max-width:425px){
     .s11-img {
         height: 260px;
     }
+  
+}
+@media only screen and (max-width:320px){
+    .s10-bck-img{
+        width: 99%;
+    }
+   
+  
 }
 /* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
 /* section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11 section-11  */
