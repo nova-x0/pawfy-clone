@@ -5796,9 +5796,8 @@ section-8 section-8 section-8 section-8 section-8 section-8 section-8 section-8 
     .flex-3>h3 {
         padding: 0 0 9px 0;
     }
-    .footer-icons{
+
+    .footer-icons {
         margin: 26px 0 12px 0;
     }
 }
-
-@media only screen and (min-width:1440px) {}
